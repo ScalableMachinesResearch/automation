@@ -29,7 +29,7 @@ cd BUILD
 make -j 32
 make install
 cd $LOC/hpctoolkit/BUILD_OPT
-../configure --with-externals=$LOC/hpctoolkit-externals-install --prefix=$LOC/hpctoolkit-opt-install  --with-mpi MPICC=$LOC/openmpi-3.1.1-install/bin/mpicc MPICXX=$LOC/openmpi-3.1.1-install/bin/mpi++
+../configure --with-externals=$LOC/hpctoolkit-externals-install --prefix=$LOC/hpctoolkit-opt-install  --with-mpi MPICC=$LOC/openmpi-3.1.1-install/bin/mpicc MPICXX=$LOC/openmpi-3.1.1-install/bin/mpic++
 make -j 32
 make install
 #Uncomment below of the viewer 
